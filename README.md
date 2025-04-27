@@ -62,7 +62,7 @@ Edit
 npm start
 # or if you're using yarn
 yarn start
-Your frontend should now be available at http://localhost:3000.
+Your frontend should now be available at http://localhost:5147.
 
 Backend Setup
 Prerequisites
@@ -97,7 +97,7 @@ In the backend directory, create a .env file and add:
 ini
 Copy
 Edit
-MONGO_URI=mongodb://localhost:27017/blogs
+MONGO_URI=XXXXXXXXXXXXXXXXXX
 JWT_SECRET=your_secret_key
 PORT=5000
 Run the backend application:
